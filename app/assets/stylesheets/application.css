@@ -16,3 +16,10 @@
 .phone img{
   height: 500px;
 }
+
+.conversation{
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  position: absolute;
+}
