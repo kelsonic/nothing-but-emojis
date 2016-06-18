@@ -21,22 +21,26 @@
   height: 190px;
   width: 209px;
   background-color: white;
+  margin: 0 auto;
   position: relative;
-  left: 475px;
   top: -447px;
 }
 
 .text{
   position:relative;
   top: -480px;
-  left:475px;
   width:209px;
+  margin:0 auto;
 }
 
 .submit{
   padding:10px 25px 10px 25px;
   position:relative;
   top: 115px;
-  left:75px;
+  left:50%;
   opacity: 0.1;
+}
+
+.phone_stuff{
+  text-align: center;
 }
