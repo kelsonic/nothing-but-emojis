@@ -47,16 +47,17 @@
 }
 
 .them{
-  background-color: gray;
+  background-color: #C7C7CC;
   max-width: 180px;
   float:left;
   padding:2px 5px;
   border-radius: 8px;
   margin: 1px 0 1px 3px;
+  color:black;
 }
 
 .us{
-  background-color: blue;
+  background-color: #1D62F0;
   max-width: 180px;
   margin:1px;
   float: right;
@@ -67,8 +68,18 @@
 
 .conversation{
   color:white;
+  font-family: "Helvetica Neue";
 }
 
 .hidden{
   display:none;
+}
+
+.name{
+  color:black;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-bottom: #BDBEC2 1px solid;
+  margin-bottom: 3px
+
 }
