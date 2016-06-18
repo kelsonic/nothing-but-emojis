@@ -45,3 +45,26 @@
 .phone_stuff{
   text-align: center;
 }
+
+.them{
+  background-color: gray;
+  max-width: 180px;
+  float:left;
+  padding:2px 5px;
+  border-radius: 8px;
+  margin: 1px 0 1px 3px;
+}
+
+.us{
+  background-color: blue;
+  max-width: 180px;
+  margin:1px;
+  float: right;
+  padding:2px 5px;
+  border-radius: 8px;
+  margin: 1px 3px 1px 0;
+}
+
+.conversation{
+  color:white;
+}
