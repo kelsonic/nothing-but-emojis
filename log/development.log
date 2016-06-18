@@ -1568,3 +1568,15 @@ ActionController::RoutingError (No route matches [GET] "/convert"):
   Rendered /Users/kelsonic/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/kelsonic/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/kelsonic/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.8ms)
+
+
+Started GET "/" for ::1 at 2016-06-17 19:07:05 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_head.html.erb (676.7ms)
+  Rendered layouts/_nav.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 710ms (Views: 699.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/emoji.self-54d5a3f7fa73f0fa5921f7c237314f5b5e6df071a15678ffbb24a3a01506cf6e.js?body=1" for ::1 at 2016-06-17 19:07:06 -0700
