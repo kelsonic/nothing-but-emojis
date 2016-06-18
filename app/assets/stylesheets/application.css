@@ -68,3 +68,7 @@
 .conversation{
   color:white;
 }
+
+.hidden{
+  display:none;
+}
