@@ -9,7 +9,7 @@ $( document ).ready(function() {
        type: 'POST',
        data: data
      }).done(function(response){
-       $('#update').html(response);
+       $('#update').html(response['response']);
        $('#update').removeClass('hidden')
      }).fail(function(failMsg){
        console.error("This will not work!");
