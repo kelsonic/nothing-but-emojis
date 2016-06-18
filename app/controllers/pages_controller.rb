@@ -3,6 +3,11 @@ class PagesController < ApplicationController
   end
 
   def convert
+    emoji = Emoji.new
+    if request.xhr?
+      # emoji.convert(params[stuff])
+    else
 
+    end
   end
 end
