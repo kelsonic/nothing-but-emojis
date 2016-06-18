@@ -18,10 +18,25 @@
 }
 
 .conversation{
-  height: 200px;
+  height: 190px;
   width: 209px;
-  background-color: blue;
+  background-color: white;
   position: relative;
-  left: 474px;
+  left: 475px;
   top: -447px;
+}
+
+.text{
+  position:relative;
+  top: -480px;
+  left:475px;
+  width:209px;
+}
+
+.submit{
+  padding:10px 25px 10px 25px;
+  position:relative;
+  top: 115px;
+  left:75px;
+  opacity: 0.1;
 }
