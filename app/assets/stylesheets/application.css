@@ -18,8 +18,10 @@
 }
 
 .conversation{
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 209px;
   background-color: blue;
-  position: absolute;
+  position: relative;
+  left: 474px;
+  top: -447px;
 }
