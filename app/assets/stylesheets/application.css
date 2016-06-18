@@ -21,22 +21,54 @@
   height: 190px;
   width: 209px;
   background-color: white;
+  margin: 0 auto;
   position: relative;
-  left: 475px;
   top: -447px;
 }
 
 .text{
   position:relative;
   top: -480px;
-  left:475px;
-  width:209px;
+  width:200px;
+  margin:0 auto;
 }
 
 .submit{
   padding:10px 25px 10px 25px;
   position:relative;
   top: 115px;
+  margin:0 auto;
   left:75px;
-  opacity: 0.1;
+  opacity: 0;
+}
+
+.phone_stuff{
+  text-align: center;
+}
+
+.them{
+  background-color: gray;
+  max-width: 180px;
+  float:left;
+  padding:2px 5px;
+  border-radius: 8px;
+  margin: 1px 0 1px 3px;
+}
+
+.us{
+  background-color: blue;
+  max-width: 180px;
+  margin:1px;
+  float: right;
+  padding:2px 5px;
+  border-radius: 8px;
+  margin: 1px 3px 1px 0;
+}
+
+.conversation{
+  color:white;
+}
+
+.hidden{
+  display:none;
 }
