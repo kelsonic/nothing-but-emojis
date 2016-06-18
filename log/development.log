@@ -1474,3 +1474,33 @@ Started GET "/assets/materialize.self-266a018c158e12c6d5615fba81f95f82029ed5a0cb
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-17 18:13:06 -0700
+
+
+Started GET "/" for ::1 at 2016-06-17 18:37:13 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_head.html.erb (434.7ms)
+  Rendered layouts/_nav.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 455ms (Views: 446.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/materialize.self-c26a23b456ee9437aae3e4a533c43ce0cd3d173127202cc7155af0d40f7802cb.css?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/materialize.self-266a018c158e12c6d5615fba81f95f82029ed5a0cb83b6ac133fdd4f71a0e811.js?body=1" for ::1 at 2016-06-17 18:37:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-06-17 18:37:14 -0700
