@@ -10,6 +10,7 @@ Welcome to the repo for NothingButEmojis.com, an app built during the [Ballmer P
 3. [Victoria](https://github.com/vic8722)
 4. [Kristal](https://github.com/kristallam)
 5. [Charlie](https://github.com/bopes)
+6. [Talal](https://github.com/ttalhouk)
 
 ## License
 MIT License. View it at LICENSE.
