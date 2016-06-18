@@ -1,7 +1,8 @@
-class Emojii
+class Emoji
+attr_accessor :all_emoji
 
   def initialize
-    @all_emojii=
+    @all_emoji=
       {
         "100": "💯",
         "1234": "🔢",
@@ -726,14 +727,16 @@ class Emojii
         "left_speech_bubble": "🗨",
     }
   end
-
-  def self.convert(input)
+  
+  def emoji_convert(input)
     array = input.split(" ")
-    emojii = @all_emojii.values
+    emoji = @all_emoji.values
     converted_string = array.map do |word|
-      emojii.sample
+      emoji.sample
     end
     return converted_string.push("🍺").join(' ')
   end
+
+
 
 end
