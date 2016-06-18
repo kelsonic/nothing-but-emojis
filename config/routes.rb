@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root 'pages#home'
-  post 'pages#convert'
+  post 'convert', to: 'pages#convert'
 end
